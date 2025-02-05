@@ -1,0 +1,137 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(to right, #f8e0c2, #fff);
+    padding: 80px 0;
+    text-align: left;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Navbar */
+.navbar {
+    transition: 0.3s;
+}
+ /* menu */
+.menus {
+    padding: 120px 0;
+}
+.menus h1 {
+    text-align: center;
+}
+
+/* About Us Section */
+.about {
+    padding: 80px 0;
+    background-color: #121212;  /* Warna latar belakang gelap */
+    text-align: center;
+    color: white;
+}
+
+.about h5 {
+    color: #f1c40f; /* Warna kuning untuk "ABOUT US" */
+}
+
+.about h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #f1c40f; /* Warna judul */
+}
+
+.about p {
+    font-size: 18px;
+    color: #ddd;
+    max-width: 600px;
+    margin: auto;
+}
+
+/* Image Container */
+.image-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container .main-img {
+    width: 450px; /* Ukuran gambar utama */
+    border-radius: 15px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.image-container .overlay-img {
+    position: absolute;
+    width: 280px; /* Ukuran gambar overlay */
+    bottom: -30px;
+    left: -50px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    transform: rotate(-5deg);
+}
+
+/* Contact Section */
+.contact {
+    padding: 30px 0;
+    background: #d2691e;
+    color: white;
+    text-align: center;
+}
+
+/* Order Button */
+.btn-order {
+    background-color: #d2691e;
+    color: white;
+    padding: 12px 24px;
+    font-size: 18px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.btn-order:hover {
+    background-color: #a0522d;
+}
+
+/* Menu Item */
+.menu-item {
+    text-align: center;
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item img {
+    width: 100px;
+}
+
+/* Rating Badge */
+.rating {
+    background: #FFF6B3;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.ig_saya {
+    display: flex;
+    justify-content: center;
+}
+
+.ig_saya a{
+    text-decoration: none;
+    color: #fff;
+}
